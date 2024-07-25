@@ -1,0 +1,71 @@
+.logo{
+    height: 30px;
+    margin-right: 10px;
+}
+
+@keyframes slide{
+    0% {margin-left: 0px;}
+    100%{margin-left: 90px;}
+}
+
+header{
+    color: #a4693d;
+    background-color: beige;
+    padding-left: 20px;
+    font-family: 'Playfair Display SC', serif;
+   
+}
+
+.navbar-text,.nav-link{
+    color: #a4693d;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.navbar-text,.nav-link:hover{
+    color: beige;
+    background-color: #a4693d;
+    box-shadow: 0px 0px 10px 5px #C4A484;
+
+}
+
+
+body{
+    background-image: url(../images/Resort-image.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.serif{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.resort{
+    color: white;
+    font-size: 150px;
+    margin-left: 90px;
+    padding-top: 140px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    animation-name: slide;
+    animation-delay: 0.4s;
+    animation-duration:3s;
+}
+
+.sans{
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+
+.tagline{
+    color: #FFFFE8;
+    font-size: 50px;
+    padding-top: 0px;
+    margin-left: 90px;
+    margin-top: 0px;
+    animation-name: slide;
+    animation-delay: 0.4s;
+    animation-duration:3s;
+}
